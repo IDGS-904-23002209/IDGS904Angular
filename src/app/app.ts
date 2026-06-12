@@ -8,4 +8,15 @@ import { Component, signal } from '@angular/core';
 })
 export class App {
   protected readonly title = signal('ODGS904Angular');
+  saludo = "Hola Mundo";
+
+  pelicula={
+      titulo: 'Spider_Man',
+      fechaLanzamiento: new Date(),
+      precio: 123.33
+    }
+
+    DuplicarNumero(valor:number):number{
+      return valor*2
+    }
 }
